@@ -119,6 +119,7 @@ export default function ContactUs() {
 
                     {/* Contact Cards */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
                         {/* Phone Card */}
                         <div className="group relative bg-white rounded-2xl p-10 shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-blue-200">
                             <div className="absolute top-0 left-0 w-full h-2 bg-linear-to-r from-blue-500 to-blue-600 rounded-t-2xl" />
@@ -150,14 +151,47 @@ export default function ContactUs() {
                                 <p className="text-sm font-bold text-green-600 uppercase tracking-widest mb-3">
                                     Email
                                 </p>
-                                <a href='mailto:' className="text-2xl font-bold text-blue-950 mb-2">
-                                    [Support Email]
+                                <a href='mailto:bhaskar.pathology007@gmail.com' className="text-lg md:text-xl font-semibold text-blue-950 mb-2">
+                                    bhaskar.pathology007@gmail.com
                                 </a>
                                 <p className="text-sm text-blue-700">
                                     We'll respond within 24 hours
                                 </p>
                             </div>
                         </div>
+
+                        {/* Location Card */}
+                        <div className="group relative bg-white rounded-2xl p-10 shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-purple-200 md:col-span-2">
+                            <div className="absolute top-0 left-0 w-full h-2 bg-linear-to-r from-purple-500 to-purple-600 rounded-t-2xl" />
+
+                            <div className="flex flex-col items-center text-center pt-4">
+                                <div className="w-20 h-20 bg-purple-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                    <Building2 className="w-10 h-10 text-purple-600" strokeWidth={2} />
+                                </div>
+
+                                <p className="text-sm font-bold text-purple-600 uppercase tracking-widest mb-3">
+                                    Location
+                                </p>
+
+                                <p className="text-xl font-bold text-blue-950 mb-4 leading-relaxed">
+                                    Tantipara, Hattala<br />
+                                    Dist.: Birbhum<br />
+                                    PIN: 731126
+                                </p>
+
+                                {/* Google Map */}
+                                <div className="w-full h-[350px] rounded-xl overflow-hidden border">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1768392252473!5m2!1sen!2sin!6m8!1m7!1sbPeEpP6zkDOazhVjCZpp1A!2m2!1d23.90320009248688!2d87.37090297346126!3f81.82527439285715!4f4.094344503106967!5f0.7820865974627469"
+                                        className="w-full h-full border-0"
+                                        allowFullScreen
+                                        loading="lazy"
+                                        referrerPolicy="no-referrer-when-downgrade"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

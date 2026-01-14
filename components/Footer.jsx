@@ -38,7 +38,7 @@ export default function Footer() {
 
                     {/* Website Builder Credit */}
                     <div className="flex items-center justify-center gap-2 text-sm">
-                        <span className="text-blue-300">Website designed and Developed by</span>
+                        <span className="text-blue-300">Website Designed and Developed by</span>
                         <a
                             href="https://portfolio-sandip-rose.vercel.app/"
                             target="_blank"
