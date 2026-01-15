@@ -180,7 +180,7 @@ export default function ContactUs() {
                                 </p>
 
                                 {/* Google Map */}
-                                <div className="w-full h-[350px] rounded-xl overflow-hidden border">
+                                <div className="w-full h-87.5 rounded-xl overflow-hidden border">
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1768392252473!5m2!1sen!2sin!6m8!1m7!1sbPeEpP6zkDOazhVjCZpp1A!2m2!1d23.90320009248688!2d87.37090297346126!3f81.82527439285715!4f4.094344503106967!5f0.7820865974627469"
                                         className="w-full h-full border-0"

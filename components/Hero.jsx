@@ -46,7 +46,7 @@ export default function Hero() {
 
                         {/* CTA Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                            <a href="#" className="group bg-green-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-700 transition-all flex items-center justify-center gap-2 shadow-2xl hover:shadow-green-600/50 transform hover:-translate-y-1">
+                            <a href="/bookings" className="group bg-green-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-700 transition-all flex items-center justify-center gap-2 shadow-2xl hover:shadow-green-600/50 transform hover:-translate-y-1">
                                 Book a Test
                                 <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
                             </a>

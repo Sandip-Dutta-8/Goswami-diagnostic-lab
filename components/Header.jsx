@@ -86,7 +86,7 @@ export default function Header() {
                         </div>
 
                         {/* CTA Button */}
-                        <a href="#" className="hidden lg:flex items-center gap-4">
+                        <a href="/bookings" className="hidden lg:flex items-center gap-4">
                             <button className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 cursor-pointer">
                                 Book a Test
                             </button>
@@ -120,7 +120,7 @@ export default function Header() {
                                 <button onClick={() => scrollToSection('contact-section')} className="text-gray-700 py-2 border-b border-gray-200">
                                     Contact
                                 </button>
-                                <a href="#" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold w-full mt-4 text-center">
+                                <a href="/bookings" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold w-full mt-4 text-center">
                                     Book a Test
                                 </a>
                             </div>

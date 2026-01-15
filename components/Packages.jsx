@@ -91,10 +91,10 @@ export default function HealthPackages() {
                         Ready to Get Started?
                     </h3>
                     <p className="text-blue-50 text-lg mb-8 max-w-2xl mx-auto">
-                        Choose the test or package that's right for you and take the first step towards better health.
+                        Choose the test that's right for you and take the first step towards better health.
                     </p>
-                    <a href='#' className="bg-white text-blue-600 px-6 md:px-8 py-4 rounded-full font-bold text-md md:text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                        Book Test or Checkup
+                    <a href='/bookings' className="bg-white text-blue-600 px-6 md:px-8 py-4 rounded-full font-bold text-md md:text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                        Book Test
                     </a>
                 </div>
             </div>
